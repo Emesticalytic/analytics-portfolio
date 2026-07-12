@@ -1,0 +1,13 @@
+.DS_Store
+*.backup-unreadable.*
+fishbone-source.html
+assets/*
+!assets/profile-emem-akpan.jpg
+!assets/student-ridge-actual-predicted.png
+!assets/ai-credit-risk-shap-drivers.png
+!assets/scam-risk-shap-dependence.png
+!assets/uk-housing-affordability.png
+!assets/energy-demand-forecast-comparison.png
+!assets/post16-vfm-dashboard.png
+!assets/office-occupancy-executive-dashboard.png
+!assets/abc-bank-ai-insights-dashboard.png
