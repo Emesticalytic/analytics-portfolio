@@ -1,0 +1,8 @@
+{
+  "name": "emem-akpan-analytics-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html styles.css script.js student-engagement-portal.html dist/ && cp -R assets dist/assets"
+  }
+}
