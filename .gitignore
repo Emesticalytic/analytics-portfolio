@@ -1,6 +1,7 @@
 .DS_Store
 *.backup-unreadable.*
 fishbone-source.html
+dist/
 assets/*
 !assets/profile-emem-akpan.jpg
 !assets/student-ridge-actual-predicted.png

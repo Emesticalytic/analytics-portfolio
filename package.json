@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html styles.css script.js student-engagement-portal.html dist/ && cp -R assets dist/assets"
+    "build": "rm -rf dist && mkdir -p dist/server dist/.openai dist/assets && cp index.html styles.css script.js student-engagement-portal.html dist/ && cp assets/profile-emem-akpan.jpg assets/student-ridge-actual-predicted.png assets/ai-credit-risk-shap-drivers.png assets/scam-risk-shap-dependence.png assets/uk-housing-affordability.png assets/energy-demand-forecast-comparison.png assets/post16-vfm-dashboard.png assets/office-occupancy-executive-dashboard.png assets/abc-bank-ai-insights-dashboard.png dist/assets/ && cp .openai/hosting.json dist/.openai/hosting.json && cp server/index.js dist/server/index.js"
   }
 }
